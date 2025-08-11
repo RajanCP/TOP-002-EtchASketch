@@ -33,3 +33,13 @@ body {
     background-color: rgb(255, 255, 255);
     margin: 0 auto;
 }
+
+grid-square{
+    background-color: lightgray;
+    margin: 1px; 
+    transition: background-color 0.2s ease; 
+}
+
+grid-square:hover{
+    background-color: black;
+}
